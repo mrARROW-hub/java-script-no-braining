@@ -5,3 +5,4 @@ let accountEmail="rishabh@google.com"
 let accountState="punjab"
 let accountCity;
 console.table([accountId,accountPassword,accountEmail,accountState,accountCity])
+console.log(typeof "punjab")
