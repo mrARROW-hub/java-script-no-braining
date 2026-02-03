@@ -41,3 +41,40 @@
      const myFunction= function(){
       console.log('hello! world');
      }
+//*********************************************Memory********************************************/
+
+
+//there are two types of memory//
+
+//     stack (primitive)   heap(Non-primitive)
+   
+         //stack//
+let myYoutubename = "rishabhdotcom"
+let anothername = myYoutubename
+
+anothername = "brawlstars"   
+//in stack memory the value of the 'myYoutubename' variable didn't change becuase the stack memory provides us th e copy of the orignal value not the value itself, that is why the value didn't change for the forst variable even after changing it.//
+
+      //heap//
+
+let user={
+   email: "mr.arrow.com",
+   upi: "user@xyz"
+}
+
+let userOne = {
+   email: "mr.arrow@google.com"
+}
+
+let userTwo = userOne 
+
+userTwo.email = "brawlstars.com"
+
+//in this situation the value will change because the heap memory provides the user with origanle value not the copy, that is why the value didn't change and remained the same.// 
+
+ 
+console.log(myYoutubename)
+console.log(anothername)
+
+console.log(userOne)
+console.log(userTwo)
