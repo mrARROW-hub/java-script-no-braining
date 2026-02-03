@@ -25,7 +25,19 @@
       console.log(id === anotherId);
       //BigInt
       const bigNumber=12345678900987654321n
-      
-   //Reference (Non Primitive)//
-
+      //**************************************************************************************************/
+   //Reference (Non Primitive)// (important)
+     
    //Array, Objects, Functions//
+
+    //array****************************************************************************//array
+   const heros = ["spiderman", "ironman", "thor"]
+     //objects*************************************************************************//objects
+    let myObject= {
+      name:"rishabh",
+      age:"15",
+     }
+     //functions**********************************************************************//functions
+     const myFunction= function(){
+      console.log('hello! world');
+     }
